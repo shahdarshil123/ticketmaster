@@ -1,4 +1,4 @@
-package com.ticketmaster.eventservice.venue;
+package com.ticketmaster.eventservice.venue.entity;
 
 import com.ticketmaster.eventservice.common.BaseEntity;
 import jakarta.persistence.Column;

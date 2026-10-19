@@ -1,4 +1,4 @@
-package com.ticketmaster.eventservice.catalog;
+package com.ticketmaster.eventservice.catalog.entity;
 
 public enum EventStatus {
     DRAFT,

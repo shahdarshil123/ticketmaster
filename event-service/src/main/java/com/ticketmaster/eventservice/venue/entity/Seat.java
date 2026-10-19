@@ -1,4 +1,4 @@
-package com.ticketmaster.eventservice.venue;
+package com.ticketmaster.eventservice.venue.entity;
 
 import com.ticketmaster.eventservice.common.BaseEntity;
 import jakarta.persistence.Column;
@@ -29,5 +29,5 @@ public class Seat extends BaseEntity {
     private String rowLabel;
 
     @Column(name = "seat_number", nullable = false)
-    private String seatNumber;
+    private Integer seatNumber;
 }

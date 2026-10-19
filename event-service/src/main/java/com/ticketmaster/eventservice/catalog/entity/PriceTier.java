@@ -1,7 +1,7 @@
-package com.ticketmaster.eventservice.catalog;
+package com.ticketmaster.eventservice.catalog.entity;
 
 import com.ticketmaster.eventservice.common.BaseEntity;
-import com.ticketmaster.eventservice.venue.Section;
+import com.ticketmaster.eventservice.venue.entity.Section;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
